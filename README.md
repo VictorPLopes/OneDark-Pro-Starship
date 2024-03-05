@@ -3,6 +3,8 @@
 ## [GitHub Repo](https://github.com/VictorPLopes/OneDark-Pro-Starship)
 
 I like to keep my software consistent and uniform, which is why I try to use the same theme on most of my apps. This is why I made a Starship Prompt preset inspired by [Atom's One Dark color scheme](https://github.com/atom/one-dark-syntax) and my favorite theme, [Binaryify's One Dark Pro theme for Visual Studio Code](https://github.com/Binaryify/OneDark-Pro).
+</br>
+**Please help me get this theme added to the official Starship Prompt repository bringing attention to [my open pull request](https://github.com/starship/starship/pull/5345).**
 
 ![Starship Prompt](./screenshots/one-dark-pro.png)
 
