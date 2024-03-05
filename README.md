@@ -31,7 +31,8 @@ I like to keep my software consistent and uniform, which is why I try to use the
 
 ## Pre-requisites
 
-- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (the example screenshots use the Caskaydia Cove Nerd Font)
+- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (the example screenshots use the Caskaydia Cove Nerd Font).
+- If you are using the Windows Terminal, [my One Dark Pro theme for Windows Terminal](https://github.com/VictorPLopes/OneDark-Pro-Windows-Terminal) is highly recommended. There are similar One Dark implementations for other terminal emulators, I suggest you use one of those if you are not using Windows Terminal.
 
 ## How to install
 
