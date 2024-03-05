@@ -10,8 +10,8 @@ I like to keep my software consistent and uniform, which is why I try to use the
 
 ## VictorPL's One Dark Collection
 
-- [One Dark Pro for Visual Studio Code (by Binarify)](https://github.com/Binaryify/OneDark-Pro)
-- [One Dark Pro for Visual Studio (by Binarify)](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.onedarkpro)
+- [One Dark Pro for Visual Studio Code (by Binaryify)](https://github.com/Binaryify/OneDark-Pro)
+- [One Dark Pro for Visual Studio (by Binaryify)](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.onedarkpro)
 - [One Dark Pro for Windows Terminal](https://github.com/VictorPLopes/OneDark-Pro-Windows-Terminal)
 - [One Dark Pro for Chromium Browsers](https://github.com/VictorPLopes/OneDark-Pro-Chromium)
 - [One Dark Pro for Starship Prompt](https://github.com/VictorPLopes/OneDark-Pro-Starship)
