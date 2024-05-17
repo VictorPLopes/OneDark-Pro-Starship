@@ -13,9 +13,12 @@ I like to keep my software consistent and uniform, which is why I try to use the
 - [One Dark Pro for Visual Studio Code (by Binarify)](https://github.com/Binaryify/OneDark-Pro)
 - [One Dark Pro for Visual Studio (by Binarify)](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.onedarkpro)
 - [One Dark Pro for Windows Terminal](https://github.com/VictorPLopes/OneDark-Pro-Windows-Terminal)
+- [One Dark Pro for Kitty Terminal](https://github.com/VictorPLopes/OneDark-Pro-Kitty-Terminal)
 - [One Dark Pro for Chromium Browsers](https://github.com/VictorPLopes/OneDark-Pro-Chromium)
 - [One Dark Pro for Starship Prompt](https://github.com/VictorPLopes/OneDark-Pro-Starship)
-- [One Dark Theme for JetBrains IDEs (by Mark Skelton)](https://plugins.jetbrains.com/plugin/11938-one-dark-theme)
+- [One Dark Pro for Neovim (by olimorris)](https://github.com/olimorris/onedarkpro.nvim)
+- [One Dark Pro for iTerm (by chinhsuanwu)](https://github.com/chinhsuanwu/one-dark-pro-iterm)
+- [One Dark for JetBrains IDEs (by Mark Skelton)](https://plugins.jetbrains.com/plugin/11938-one-dark-theme)
 
 ![One Dark Pro Collection](./screenshots/one-dark-pro-collection.png)
 
@@ -25,14 +28,16 @@ I like to keep my software consistent and uniform, which is why I try to use the
 
 ![Windows](./screenshots/one-dark-pro-windows.png)
 
-### Fish, Windows Terminal, Ubuntu 22 on Windows 11 (WSL2)
+### Fish, Kitty Terminal, Kubuntu 24
 
-![WSL](./screenshots/one-dark-pro-ubuntu.png)
+![Linux](./screenshots/one-dark-pro-kubuntu.png)
 
 ## Pre-requisites
 
-- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (the example screenshots use the Caskaydia Cove Nerd Font).
-- If you are using the Windows Terminal, [my One Dark Pro theme for Windows Terminal](https://github.com/VictorPLopes/OneDark-Pro-Windows-Terminal) is highly recommended. There are similar One Dark implementations for other terminal emulators, I suggest you use one of those if you are not using Windows Terminal.
+- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (the example screenshots use the [Cascadia Code](https://github.com/microsoft/cascadia-code/) Nerd Font).
+- If you are using the Windows Terminal, [my One Dark Pro theme for Windows Terminal](https://github.com/VictorPLopes/OneDark-Pro-Windows-Terminal) is highly recommended.
+- If you are using Kitty, [my One Dark Pro theme for Kitty Terminal](https://github.com/VictorPLopes/OneDark-Pro-Kitty-Terminal) is highly recommended.
+- There are similar One Dark implementations for other terminal emulators, I suggest you use one of those if you are not using Windows Terminal or Kitty. For Mac users, there's a suggested iTerm theme in the beginning of this file.
 
 ## How to install
 

@@ -2,15 +2,15 @@
 
 # Configures the format of the prompt.
 format = """
-[](color_green)\
+[](color_red0)\
 $os\
 $username\
-[](bg:color_orange fg:color_green)\
+[](bg:color_orange fg:color_red0)\
 $directory\
-[](fg:color_orange bg:color_cyan)\
+[](fg:color_orange bg:color_yellow)\
 $git_branch\
 $git_status\
-[](fg:color_cyan bg:color_blue)\
+[](fg:color_yellow bg:color_green)\
 $c\
 $dotnet\
 $rust\
@@ -27,21 +27,21 @@ $gradle\
 $julia\
 $nim\
 $scala\
-[](fg:color_blue bg:mono3)\
+[](fg:color_green bg:color_cyan)\
 $docker_context\
-[ ](mono3)\
+[ ](color_cyan)\
 $fill\
 ([ ](mono4)\
 $time\
 $battery\
-[ ](mono4))\
+[](mono4))\
 $line_break$character"""
 
-# Sets the palette to "one_dark_pro".
-palette = 'one_dark_pro'
+# Sets the palette to "one_dark".
+palette = 'one_dark'
 
-# Sets the colors of the "one_dark_pro" palette.
-[palettes.one_dark_pro]
+# Sets the colors of the "one_dark" palette.
+[palettes.one_dark]
 mono0 = '#d7dae0' # terminal white, from the One Dark Pro VSCode theme.
 mono1 = '#abb2bf' # syntax_fg.
 mono2 = '#828997'
@@ -64,7 +64,7 @@ syntax_accent = '#528cff'
 # Module that displays the current OS.
 [os]
 disabled = false # Disabled by default
-style = "bg:color_green fg:syntax_bg"
+style = "bg:color_red0 fg:syntax_bg"
 format = '[ $symbol ]($style)'
 
 # Sets custom symbols for each OS.
@@ -101,8 +101,8 @@ Windows = "󰍲"
 # Module that displays the current username.
 [username]
 show_always = true
-style_user = "bold bg:color_green fg:syntax_bg"
-style_root = "bold bg:color_green fg:syntax_bg"
+style_user = "bold bg:color_red0 fg:syntax_bg"
+style_root = "bold italic bg:color_red0 fg:syntax_bg"
 format = '[ $user ]($style)'
 
 # Module that displays the current directory.
@@ -123,94 +123,94 @@ truncation_symbol = "…/"
 # Module that displays the current git branch.
 [git_branch]
 symbol = ""
-style = "bg:color_cyan"
-format = '[[ $symbol $branch ](fg:syntax_bg bg:color_cyan)]($style)'
+style = "bg:color_yellow"
+format = '[[ $symbol $branch ](fg:syntax_bg bg:color_yellow)]($style)'
 
 # Module that displays the current git status.
 [git_status]
-style = "bg:color_cyan"
-format = '[[($all_status$ahead_behind )](fg:syntax_bg bg:color_cyan)]($style)'
+style = "bg:color_green"
+format = '[[($all_status$ahead_behind )](fg:syntax_bg bg:color_yellow)]($style)'
 
 # Language specific modules
 [nodejs]
 symbol = ""
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [c]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [dotnet]
 symbol = "󰪮"
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [golang]
 symbol = ""
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [php]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [java]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [kotlin]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [python]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol( $version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [elixir]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [elm]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [gradle]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [julia]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [nim]
 symbol = "󰆥 "
-style = "bg:color_blue"
-format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_green)]($style)'
 
 [scala]
 symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_blue)]($style)'
+style = "bg:color_green"
+format = '[[ $symbol ($version) ](fg:syntax_bg bg:color_green)]($style)'
 
 # Module that displays the docker context.
 [docker_context]
